@@ -19,13 +19,21 @@ export const HeaderStyle = styled.header`
 
     nav ul{
         display: flex;
-        gap: 20px;
+        gap: 40px;
         list-style: none;
 
         a{
             text-decoration: none;
             color: white;
             font-size: 15px;
+        }
+
+        li{
+            transition: all ease-in 0.2s;
+        }
+
+        li:hover{
+            transform: scale(1.05);
         }
     }
 

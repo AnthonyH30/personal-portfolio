@@ -6,7 +6,7 @@ export default function Contact(){
     return(
         <ContactStyle>
             <div id="contato"></div>
-            <SectionTitle sectionName="Contato"  title="Interessado em trabalhar comigo ou quem ter uma conversa?"/>
+            <SectionTitle sectionName="Contato"  title="Interessado em trabalhar comigo ou quem sabe ter uma conversa?"/>
             <div className="container">
                 <p>entre em contato comigo pelas redes sociais ou pelo Email: <a href="mailto:anthonyharisson30@gmail.com">anthonyharisson30@gmail.com</a></p>
                 <div className="social">

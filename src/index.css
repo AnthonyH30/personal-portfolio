@@ -8,3 +8,8 @@
 html{
   scroll-behavior: smooth;
 }
+
+body{
+  background-color: #001eff;
+  overflow-x: hidden;
+}

@@ -58,13 +58,18 @@ export const Project = styled.div`
 }
 
     figure img{
-            width: 300px;
+            width: 450px;
+            border-radius: 16px;
         }
 
 
         @media(max-width: 768px){
             flex-direction: column;
             gap: 20px;
+
+            figure img{
+                width: 300px;
+            }
         }
 
 `
